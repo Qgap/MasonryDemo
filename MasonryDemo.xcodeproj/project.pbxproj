@@ -10,11 +10,13 @@
 		0433B6ED1D11037E00AEA7BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B6EC1D11037E00AEA7BE /* main.m */; };
 		0433B6F01D11037E00AEA7BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B6EF1D11037E00AEA7BE /* AppDelegate.m */; };
 		0433B6F31D11037E00AEA7BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B6F21D11037E00AEA7BE /* ViewController.m */; };
-		0433B6F61D11037E00AEA7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433B6F41D11037E00AEA7BE /* Main.storyboard */; };
 		0433B6F81D11037E00AEA7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0433B6F71D11037E00AEA7BE /* Assets.xcassets */; };
 		0433B6FB1D11037E00AEA7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433B6F91D11037E00AEA7BE /* LaunchScreen.storyboard */; };
 		0433B7061D11037E00AEA7BE /* MasonryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B7051D11037E00AEA7BE /* MasonryDemoTests.m */; };
 		0433B7111D11037E00AEA7BE /* MasonryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B7101D11037E00AEA7BE /* MasonryDemoUITests.m */; };
+		0433B7201D11077500AEA7BE /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B71F1D11077500AEA7BE /* CenterViewController.m */; };
+		0433B7231D1107BF00AEA7BE /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433B7221D1107BF00AEA7BE /* ScrollViewController.m */; };
+		453F067C13CCE64B90D992B2 /* libPods-MasonryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6200DC5BF583446F3517DBE /* libPods-MasonryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,6 @@
 		0433B6EF1D11037E00AEA7BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0433B6F11D11037E00AEA7BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0433B6F21D11037E00AEA7BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0433B6F51D11037E00AEA7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0433B6F71D11037E00AEA7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0433B6FA1D11037E00AEA7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0433B6FC1D11037E00AEA7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		0433B70C1D11037E00AEA7BE /* MasonryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0433B7101D11037E00AEA7BE /* MasonryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryDemoUITests.m; sourceTree = "<group>"; };
 		0433B7121D11037E00AEA7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0433B71E1D11077500AEA7BE /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		0433B71F1D11077500AEA7BE /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		0433B7211D1107BF00AEA7BE /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		0433B7221D1107BF00AEA7BE /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		2CB1291EECF9A11BDE7C386B /* Pods-MasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57C1AC748557BB525B369A5C /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E6200DC5BF583446F3517DBE /* libPods-MasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453F067C13CCE64B90D992B2 /* libPods-MasonryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 				0433B7041D11037E00AEA7BE /* MasonryDemoTests */,
 				0433B70F1D11037E00AEA7BE /* MasonryDemoUITests */,
 				0433B6E91D11037E00AEA7BE /* Products */,
+				1BE8A28405BBF2E67E02E35D /* Pods */,
+				3457A62DDE3089B03802A7BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +112,14 @@
 		0433B6EA1D11037E00AEA7BE /* MasonryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0433B7211D1107BF00AEA7BE /* ScrollViewController.h */,
+				0433B7221D1107BF00AEA7BE /* ScrollViewController.m */,
+				0433B71E1D11077500AEA7BE /* CenterViewController.h */,
+				0433B71F1D11077500AEA7BE /* CenterViewController.m */,
 				0433B6EE1D11037E00AEA7BE /* AppDelegate.h */,
 				0433B6EF1D11037E00AEA7BE /* AppDelegate.m */,
 				0433B6F11D11037E00AEA7BE /* ViewController.h */,
 				0433B6F21D11037E00AEA7BE /* ViewController.m */,
-				0433B6F41D11037E00AEA7BE /* Main.storyboard */,
 				0433B6F71D11037E00AEA7BE /* Assets.xcassets */,
 				0433B6F91D11037E00AEA7BE /* LaunchScreen.storyboard */,
 				0433B6FC1D11037E00AEA7BE /* Info.plist */,
@@ -140,6 +154,23 @@
 			path = MasonryDemoUITests;
 			sourceTree = "<group>";
 		};
+		1BE8A28405BBF2E67E02E35D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C1AC748557BB525B369A5C /* Pods-MasonryDemo.debug.xcconfig */,
+				2CB1291EECF9A11BDE7C386B /* Pods-MasonryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3457A62DDE3089B03802A7BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6200DC5BF583446F3517DBE /* libPods-MasonryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0433B7151D11037E00AEA7BE /* Build configuration list for PBXNativeTarget "MasonryDemo" */;
 			buildPhases = (
+				56D9CE16A308571FEDABF3DF /* 📦 Check Pods Manifest.lock */,
 				0433B6E41D11037E00AEA7BE /* Sources */,
 				0433B6E51D11037E00AEA7BE /* Frameworks */,
 				0433B6E61D11037E00AEA7BE /* Resources */,
+				3DEFB92AA08A51607A7AA2A6 /* 📦 Embed Pods Frameworks */,
+				02D68935C73FAE706D6A804D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +279,6 @@
 			files = (
 				0433B6FB1D11037E00AEA7BE /* LaunchScreen.storyboard in Resources */,
 				0433B6F81D11037E00AEA7BE /* Assets.xcassets in Resources */,
-				0433B6F61D11037E00AEA7BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +298,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D68935C73FAE706D6A804D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DEFB92AA08A51607A7AA2A6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D9CE16A308571FEDABF3DF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0433B6E41D11037E00AEA7BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0433B7231D1107BF00AEA7BE /* ScrollViewController.m in Sources */,
 				0433B6F31D11037E00AEA7BE /* ViewController.m in Sources */,
+				0433B7201D11077500AEA7BE /* CenterViewController.m in Sources */,
 				0433B6F01D11037E00AEA7BE /* AppDelegate.m in Sources */,
 				0433B6ED1D11037E00AEA7BE /* main.m in Sources */,
 			);
@@ -308,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0433B6F41D11037E00AEA7BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0433B6F51D11037E00AEA7BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0433B6F91D11037E00AEA7BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +488,7 @@
 		};
 		0433B7161D11037E00AEA7BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C1AC748557BB525B369A5C /* Pods-MasonryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryDemo/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		0433B7171D11037E00AEA7BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB1291EECF9A11BDE7C386B /* Pods-MasonryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MasonryDemo/Info.plist;
@@ -498,6 +575,7 @@
 				0433B7171D11037E00AEA7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0433B7181D11037E00AEA7BE /* Build configuration list for PBXNativeTarget "MasonryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +584,7 @@
 				0433B71A1D11037E00AEA7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0433B71B1D11037E00AEA7BE /* Build configuration list for PBXNativeTarget "MasonryDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +593,7 @@
 				0433B71D1D11037E00AEA7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

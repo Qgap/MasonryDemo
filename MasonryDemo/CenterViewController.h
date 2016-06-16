@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CenterViewController.h
 //  MasonryDemo
 //
 //  Created by Mac on 16/6/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface CenterViewController : UIViewController
 
 @end
-
